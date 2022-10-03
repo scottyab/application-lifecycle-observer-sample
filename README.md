@@ -9,7 +9,7 @@ It consists of 3 classes with log statements
 * `MyApplication` - registers the `ApplicationLifecycleObserver` to the `ProcessLifecycleOwner` and logs when onCreate called
 * `MainActivity` - empty activity which logs when onCreate called
 
-However, as shown in the screen shot below this is behaved as expected and 
+However, as shown in the screen shot below this is behaved as expected. Therefore the issue I'm seeing in a production app could be related to something else :thinking:
 
 
 ![My Lifecycle Aware Application – ApplicationLifecycleObserver kt  My_Lifecycle_Aware_Application app main  2022-10-03 at 12 55 58 pm](https://user-images.githubusercontent.com/404105/193571466-9042007f-d440-493f-adab-001840e249de.jpg)
